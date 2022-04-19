@@ -23,20 +23,39 @@ p.b {
     border-width: 5px;
     margin-left: 0%; 
     margin-bottom: 5%;
+} 
+  
+.float-parent-element { 
+    width: 100%; 
+    clear: both;
+    min-height: 650px;
+} 
+
+.float-child-element { 
+    float: left; 
+    width: 49%; 
+} 
+  
+.margins { 
+    margin-left: 25px;
+}
   
 </style>
-  
 </head>
-  
 <body id="home">
-<div>
-<p class="a">Orientation Dashboard</p>
-</div>
-        
-<div class="borders">
-<p class="b"> Unit Location </p>
-<script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca00098fc2f7756d440a698c3/emb"></script>
+  
+<p class="a">Delivery Dashboard</p>
+<div class="float-parent-element borders">
+  <div class="float-child-element">
+    <p class="b"> Current Unit Location </p>
+    <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca00098fc2f7756d440a698c3/emb"></script></div>
+  </div>	
+  <div class="float-child-element">
+    <p class="b"> Unit Location History </p>
+    <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca0003affb1d5af174f668e9e/emb"></script></div>
+  </div>
 </div>
 
+  
 </body>
 </html>
