@@ -25,17 +25,6 @@ p.b {
     margin-bottom: 5%;
 } 
   
-.float-parent-element { 
-    width: 100%; 
-    clear: both;
-    min-height: 700px;
-} 
-
-.float-child-element { 
-    float: left; 
-    width: 49%; 
-} 
-  
 .margins { 
     margin-left: 10px;
 }
@@ -45,22 +34,20 @@ p.b {
 <body id="home">
   
 <p class="a">Delivery Dashboard</p>
-<div class="float-parent-element borders">
-  <div class="float-child-element">
-    <p class="b"> Current Unit Location </p>
-    <div><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca00098fc2f7756d440a698c3/emb"></script></div>
-  </div>	
-  <div class="float-child-element">
-    <p class="b"> Unit Location History (and Photos) </p>
-    <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca0003affb1d5af174f668e9e/emb"></script></div>
-  </div>
+
+<div class="borders">
+  <p class="b"> Current Unit Location </p>
+  <div><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca00098fc2f7756d440a698c3/emb"></script></div>
+</div>	
+<div class="borders">
+  <p class="b"> Unit Location History (and Photos) </p>
+  <div class="margins"><script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca0003affb1d5af174f668e9e/emb"></script></div>
+</div>
 </div>
 <br>
- <div class = "borders">
-    <p class="b"> Units by Current Location </p>
-    <script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca00005e9586332224c87bc7a/emb"></script>
- </div>	
-
-  
+<div class = "borders">
+  <p class="b"> Units by Current Location </p>
+  <script type="text/javascript" src="https://c0hct975.caspio.com/dp/a76ca00005e9586332224c87bc7a/emb"></script>
+</div>
 </body>
 </html>
